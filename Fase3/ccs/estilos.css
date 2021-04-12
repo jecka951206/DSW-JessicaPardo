@@ -1,0 +1,27 @@
+header{
+    background-color: rgb(113, 141, 233);
+    padding: 20px;
+}
+nav{
+    background-color:rgb(213, 160, 235);
+    padding: 10px;
+}
+section{
+    float:left ;
+    width: 70% ;
+    background-color: rgb(227, 173, 250);
+}
+aside{
+    float: left;
+    width: 30%;
+    background-color: rgb(210, 131, 243);
+}
+footer{
+    background-color: rgb(208, 138, 238);
+    padding: 10px;
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
